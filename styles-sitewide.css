@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300&display=swap');
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+    }
+    .toplink {
+        color:white;
+        border-color: white;
+    }
+    .toplink:hover, .projectframe {
+        border-color: white !important;
+    }
+    .toptitle {
+        color:white;
+    }
+    .socialicon {
+        filter:invert(1);
+    }
+}
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+    }
+    .toplink {
+        color:black;
+    }
+    .toplink:hover, .projectframe {
+        border-color: black !important;
+    }
+    .logo {
+        filter:invert(1);
+    }
+    .toptitle {
+        color:black;
+    }
+}
+
+.toptitle {
+    font-family: monospace;
+    font-weight: lighter;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.toplink {
+    text-transform: uppercase;
+    padding: 15px 20px;
+    letter-spacing: 2px;
+    border:2px solid;
+    stroke-opacity: 0%;
+    font-size: 14px;
+    font-family: "Oxanium";
+    font-weight: 300;
+    margin: 0px 5px !important;
+}
+
+.toplink {
+    border-color: transparent;
+    transition: border 500ms ease-out;
+    -webkit-transition: border 500ms ease-out; 
+    -moz-transition: border 500ms ease-out;
+    -o-transition: border 500ms ease-out;
+    transition: background 250ms ease-out;
+    -webkit-transition: background 250ms ease-out; 
+    -moz-transition: background 250ms ease-out;
+    -o-transition: background 250ms ease-out;
+}
+
+* {
+    text-decoration: none !important;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

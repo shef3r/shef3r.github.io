@@ -1,0 +1,81 @@
+@media (prefers-color-scheme: dark) {
+    .abt, .language:hover {
+        border-color: white !important;
+        background-color:white;
+        color:black;
+    }
+    .infostring, .language, .bio {
+        color: white;
+    }
+    .language, .socialicon {
+        border: 1px white solid;
+    }
+}
+@media (prefers-color-scheme: light) {
+    .abt, .language:hover {
+        border-color: black !important;
+        background-color:black;
+        color:white;
+    }
+    .infostring, .language, .bio {
+        color: black;
+    }
+    .language, .socialicon {
+        border: 1px black solid;
+    }
+}
+
+.infostring, .language, .bio {
+    font-family: "Oxanium";
+}
+
+.bio {
+    font-size: 14px;
+    max-width: 300px;
+}
+.language {
+        width: 100px;
+        padding: 10px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 10px;
+        margin: 10px;
+}
+
+.langs, .bothsides {
+    display: flex;
+    flex-direction: row;
+}
+.bothsides {
+    justify-content: space-evenly;
+    max-width: 605px;
+    margin: auto;
+}
+
+.langs {
+    flex-wrap: wrap;
+}
+
+.left, .right {
+    max-width: 350px;
+}
+
+.language:hover {
+    transition: background 250ms ease-out;
+    -webkit-transition: background 250ms ease-out; 
+    -moz-transition: background 250ms ease-out;
+    -o-transition: background 250ms ease-out;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.socials>* {
+    margin: 10px;
+}

@@ -1,0 +1,74 @@
+@media (prefers-color-scheme: dark) {
+    .proj {
+        border-color: white !important;
+        background-color:white;
+        color:black;
+    }
+    .projtitle, .projdesc {
+        color:white;
+    }
+}
+@media (prefers-color-scheme: light) {
+    .proj {
+        border-color: black !important;
+        background-color:black;
+        color:white;
+    }
+    .projtitle, .projdesc {
+        color:black;
+    }
+}
+
+.projectgrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:15px;
+}
+
+.projectframe {
+    border: 1px solid;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    width: 300px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap:5px;
+}
+
+.projtitle {
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.projdesc {
+    font-family: 'Oxanium';
+    font-size: 14px;
+}
+
+.wip {
+    border-style: dashed !important;
+}
+
+.projwip {
+    font-size: 16px !important;
+    margin-top:0 !important;
+    margin-bottom: 4px;
+}
+
+.wiptitle {
+    margin: 0 !important;
+}
+
+p {
+    margin: 3px;
+}

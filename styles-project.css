@@ -1,0 +1,14 @@
+@media (prefers-color-scheme: dark) {
+    .proj {
+        border-color: white !important;
+        background-color:white;
+        color:black;
+    }
+}
+@media (prefers-color-scheme: light) {
+    .proj {
+        border-color: black !important;
+        background-color:black;
+        color:white;
+    }
+}
