@@ -59,6 +59,14 @@
 
 .left, .right {
     max-width: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p.infostring {
+    margin: 2px !important;
 }
 
 .language:hover {
@@ -79,3 +87,20 @@
 .socials>* {
     margin: 10px;
 }
+
+@media only screen and (max-width: 645px) {
+    .bothsides {
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .socials {
+        margin-right:0 !important;
+    }
+    .left {
+        padding: 0px 56px;
+    }
+    .left, .right {
+        max-width: 284px;
+    }
+  }
