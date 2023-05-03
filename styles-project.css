@@ -1,14 +1,87 @@
 @media (prefers-color-scheme: dark) {
-    .proj {
+    .getapp {
         border-color: white !important;
         background-color:white;
         color:black;
     }
+    .projtitle, .projdesc {
+        color:white;
+    }
 }
 @media (prefers-color-scheme: light) {
-    .proj {
+    .getapp {
         border-color: black !important;
         background-color:black;
         color:white;
     }
+    .projtitle, .projdesc {
+        color:black;
+    }
+    .socialiconinbtn {
+        filter:invert(1);
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap:5px;
+}
+
+.projtitle {
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.projdesc {
+    font-family: 'Oxanium';
+    font-size: 18px;
+    max-width: 500px;
+    padding: 0px 20px 20px 20px;
+}
+
+b {
+    font-size: 20px;
+}
+
+.wip {
+    border-style: dashed !important;
+}
+
+.projwip {
+    font-size: 16px !important;
+    margin-top:0 !important;
+    margin-bottom: 4px;
+}
+
+.wiptitle {
+    margin: 0 !important;
+}
+
+p {
+    margin: 3px;
+}
+
+.desccenter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.getapp {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 200px;
+    align-items: center;
+    gap:10px;
+}
+
+.buttontxt {
+    font-family: 'Oxanium';
+    font-size: 14px;
 }
