@@ -7,7 +7,7 @@
     .infostring, .language, .bio {
         color: white;
     }
-    .language, .socialicon {
+    .language {
         border: 1px white solid;
     }
 }
@@ -20,7 +20,7 @@
     .infostring, .language, .bio {
         color: black;
     }
-    .language, .socialicon {
+    .language {
         border: 1px black solid;
     }
 }
